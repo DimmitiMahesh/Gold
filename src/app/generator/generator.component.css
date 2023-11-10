@@ -1,0 +1,45 @@
+.underline-header {
+    text-decoration: underline;
+  }
+  /* Define the border style for the separator div */
+.border-div {
+    border-top: 1px dashed #000; /* Change the color and width as needed */
+    margin-top: 20px; /* Adjust the margin for spacing */
+}
+/* styles.css or your component-specific CSS file */
+
+/* styles.css or your component-specific CSS file */
+
+.footer {
+    background-color: #333; /* Set the background color to your desired color */
+    color: white;           /* Set the text color to white or the color of your choice */
+    padding: 20px;          /* Add some padding for spacing */
+                          /* Use flexbox for layout */
+                          /* Distribute columns evenly */    
+}
+.footer-image{
+    text-align: center;
+}
+.footer-text{
+    display:flex;
+}
+
+.footer-column {
+    text-align: center; /* Center-align the content in each column */
+    flex: 1;            /* Distribute available space evenly among columns */
+    padding: 10px;
+       /* Add some padding for spacing within columns */
+}
+.logo{
+    display:flex;
+    margin-left: 80px;
+    padding-top: 15px;
+
+}
+.small-logo {
+    width: 30px; /* Set the width to the desired size */
+    height: 30px;
+    margin-left: 10px; /* Set the height to the desired size */
+    cursor: pointer;
+}
+

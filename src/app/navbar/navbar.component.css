@@ -1,0 +1,151 @@
+header{
+    margin-top: -50px;
+    height: 170px;
+    background-color: #f7f6fb;
+    border: #000;
+}
+.navbar {
+   display: flex;
+    justify-content: space-evenly;
+     /* Adjust the padding as needed */
+     background-color: black;
+     color: white;
+     text-align: center;
+     padding-top:5px ;
+    margin-top: 10px;
+  }
+  /* .trending{
+    text-align: center;
+  } */
+ 
+  
+  /* .mat-toolbar {
+    background-color: black;
+} */
+.icon-reverse{
+ 
+  flex-direction: row-reverse;
+  
+}
+.small-select {
+  width: 150px; /* Adjust the width to your preferred size */
+  font-size: 14px;
+ padding-right: 5px;
+}
+.icon-spacing{
+  margin-left: 10px;
+  padding-top: 2.5px;
+}
+.arrow{
+  padding-top: 5px;
+}
+/* .trending{
+  display:inline-block;
+  padding: 5px;
+  margin-left: 80px;
+  padding: 5px;
+} */
+.one{
+  display : flex;
+  margin-left: 70px;
+}
+.border-div {
+  border-bottom: 1px solid black;
+}
+/* @media only screen and (max-width: 999px) {
+  .navbar{
+    position: absolute;
+    right:0;
+    top:64px;
+    background: #222;
+  }
+} */
+
+/* Add your custom styles here */
+/* Add your custom styles here */
+
+/* @media (max-width: 1040px) {
+  .hamburger {
+    display: block;
+    cursor: pointer;
+  }
+  .hamburger .line {
+    width: 30px;
+    height: 3px;
+    background: #fefefe;
+    margin: 6px 0;
+  }
+  .navbar {
+    position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    background: #11101b;
+    transition: 0.2s;
+    height: 450px;
+  }
+  .navbar ul {
+    display: block;
+    width: fit-content;
+    margin: 80px auto 0 auto;
+    text-align: center;
+    transition: 0.5s;
+  }
+  .navbar ul li a {
+    margin-bottom: 12px;
+  }
+} */
+
+/* @media only screen and (min-width: 768px) {
+  .menu-icon {
+    display: none;
+  }
+
+  .mobile-menu {
+    display: none;
+  }
+} */
+@media only screen and (min-width: 1040px) {
+  .menu-icon {
+    display: none;
+  }
+
+  .mobile-menu {
+    display: none;
+  }
+}
+
+@media only screen and (max-width:766px) {
+  .menu-icon {
+    display: block;
+    /* background-color: blue !important; */
+  }
+
+  .mobile-menu{
+    background-color: black;
+    color: white;
+    height : 400px;
+    position:relative;
+    z-index:1;
+    width:330px;
+    text-align: center;
+
+  }
+
+  .navbar {
+    display: none;
+  }
+  
+  
+}
+@media only screen and (max-width: 766px) {
+  /* Adjust the navbar styles for mobile screens here */
+  .navbar {
+    display: block;
+    position: relative;
+  }
+
+  /* Adjust other styles as needed for mobile screens */
+}
+ 

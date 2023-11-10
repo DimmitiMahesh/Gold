@@ -1,0 +1,129 @@
+
+<header class="drop-shadow">
+    <div class="mt-5">
+        <mat-icon>
+            menu
+            </mat-icon>
+        <div style="display: inline-block; margin-right: 250px; padding-left: 50px; ">
+            <img src="https://i0.wp.com/goldandhra.com/wp-content/uploads/2023/08/GA-log-300x46-1.png?fit=300%2C46&ssl=1">
+        </div>
+        <!-- <div style="display: inline-block; " class="image-container">
+            <img src="https://goldandhra.com/wp-content/uploads/2023/07/best-brains-for-AH.jpg" height="100">
+        </div> -->
+    </div>
+    <div>
+        <mat-toolbar class="navbar" fxLayout="row" fxLayout.xs="column" fxLayoutAlign.xs="center center">
+            <div fxHide.xs="true">
+              <button mat-button [routerLink]="'/'">Home</button>
+          
+              <button mat-button class="icon-reverse" [matMenuTriggerFor]="Moviesmenu">
+                Movies<mat-icon>expand_more</mat-icon>
+              </button>
+              <button mat-button class="icon-reverse" [matMenuTriggerFor]="TrendingMenu">
+                Trending<mat-icon>expand_more</mat-icon>
+              </button>
+          
+              <button mat-button>True/False</button>
+              <button mat-button class="icon-reverse" [matMenuTriggerFor]="SportsMenu">
+                Sports<mat-icon>expand_more</mat-icon>
+              </button>
+              <button mat-button [routerLink]="'/politics'">Politics</button>
+              <button mat-button [routerLink]="'/biggboss'">Biggboss</button>
+          
+              <button mat-button>Reviews</button>
+              <!-- <mat-form-field appearance="fill" class="small-select"> -->
+              <button class="small-select">
+                <mat-select>
+                  <mat-option value="English">English</mat-option>
+                  <mat-option value="Telugu">Telugu</mat-option>
+                </mat-select>
+              </button>
+              <!-- </mat-form-field> -->
+          
+              <mat-icon class="icon-spacing">search</mat-icon>
+              <mat-icon class="icon-spacing">
+                nightlight
+              </mat-icon>
+            </div>
+            <!-- <button mat-icon-button class="menu-icon" (click)="toggleMenu()">
+              <mat-icon>menu</mat-icon>
+            </button> -->
+          </mat-toolbar>
+          
+          <mat-toolbar *ngIf="isMenuOpen" class="mobile-menu" fxLayout="column" fxLayoutGap="10px">
+            <button mat-button [routerLink]="'/'">Home</button>
+            <button mat-button class="icon-reverse" [matMenuTriggerFor]="Moviesmenu">Movies</button>
+            <button mat-button class="icon-reverse" [matMenuTriggerFor]="TrendingMenu">Trending</button>
+            <button mat-button>True/False</button>
+            <button mat-button class="icon-reverse" [matMenuTriggerFor]="SportsMenu">Sports</button>
+            <button mat-button [routerLink]="'/politics'">Politics</button>
+            <button mat-button [routerLink]="'/biggboss'">Biggboss</button>
+            <button mat-button>Reviews</button>
+            <button class="small-select">
+              <mat-select>
+                <mat-option value="English">English</mat-option>
+                <mat-option value="Telugu">Telugu</mat-option>
+              </mat-select>
+            </button>
+            <mat-icon class="icon-spacing">search</mat-icon>
+            <mat-icon class="icon-spacing">nightlight</mat-icon>
+          </mat-toolbar>
+          
+        
+           
+            <!-- <h4 style="display:inline-block; margin-left: 150px; color:red;">Trending</h4>
+           <div class="trending"> -->
+           <!-- <mat-icon class="arrow">
+            arrow_back_ios
+            </mat-icon> -->
+
+           <!-- <button mat-raised-button>AlluArjun Pushpa2 Rele...</button>
+           <button mat-raised-button>shah rukh khan's 'jawaan'...</button>
+           <button mat-raised-button>Pawan Kalyan Mesmoriz...</button>
+           <button mat-raised-button>An Energetic Action Trailer...</button>
+           <button mat-raised-button>President Revealed...</button> -->
+           <!-- <mat-icon class="arrow">
+            
+                arrow_forward_ios
+                
+            </mat-icon> -->
+        <!-- </div> -->
+        
+    </div>
+</header>
+<div class="border-div"></div>
+
+<mat-menu #Moviesmenu="matMenu">
+    <button mat-menu-item [matMenuTriggerFor]="SuperstarMenu">Superstars</button>
+    <button mat-menu-item [matMenuTriggerFor]="TrailersMenu">Trailers</button>
+    <button mat-menu-item [matMenuTriggerFor]="NewsMenu">News</button>
+</mat-menu>
+<mat-menu #TrendingMenu="matMenu">
+    <button mat-menu-item>Press Notes</button>
+    <button mat-menu-item>Polls</button>
+    <button mat-menu-item>Gallery</button>
+    <button mat-menu-item>Hit Songs</button>
+   
+</mat-menu>
+<mat-menu #SuperstarMenu="matMenu">
+   <button mat-menu-item>Actors</button>
+   <button mat-menu-item>Actress</button>
+</mat-menu>  
+<mat-menu #TrailersMenu="matMenu">
+    <button mat-menu-item>Tollywood</button>
+    <button mat-menu-item>Bollywood</button>
+ </mat-menu> 
+ <mat-menu #NewsMenu="matMenu">
+    <button mat-menu-item>Tollywood</button>
+    <button mat-menu-item>Bollywood</button>
+ </mat-menu> 
+ <mat-menu #SportsMenu="matMenu">
+    <button mat-menu-item>Icc World Cup 2023 Schedule</button>
+    <button mat-menu-item>Cricket</button>
+    <button mat-menu-item>Football</button>
+    <button mat-menu-item>Hockey</button>
+ </mat-menu> 
+
+ 
+ 
+

@@ -1,0 +1,211 @@
+.app{
+    margin-top: 40px;
+   
+}
+.image{
+  position: relative;
+}
+
+.underline-header {
+    text-decoration: underline;
+  }
+  /* Define the border style for the separator div */
+.border-div {
+    border-top: 1px dashed #000; /* Change the color and width as needed */
+    margin-top: 20px; /* Adjust the margin for spacing */
+}
+/* styles.css or your component-specific CSS file */
+
+/* styles.css or your component-specific CSS file */
+
+.footer {
+    background-color: #333; /* Set the background color to your desired color */
+    color: white;           /* Set the text color to white or the color of your choice */
+    padding: 20px;          /* Add some padding for spacing */
+                          /* Use flexbox for layout */
+                          /* Distribute columns evenly */    
+}
+.footer-image{
+    text-align: center;
+}
+.footer-text{
+    display:flex;
+}
+
+.footer-column {
+    text-align: center; /* Center-align the content in each column */
+    flex: 1;            /* Distribute available space evenly among columns */
+    padding: 10px;
+       /* Add some padding for spacing within columns */
+}
+.logo{
+    display:flex;
+    margin-left: 80px;
+    padding-top: 15px;
+
+}
+.small-logo {
+    width: 30px; /* Set the width to the desired size */
+    height: 30px;
+    margin-left: 10px; /* Set the height to the desired size */
+}
+
+/* Regular styles */
+/* Define your regular styles here */
+
+/* Media query for small screens */
+@media only screen and (max-width: 320px) {
+    .footer-text {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .footer-column {
+      text-align: center;
+      flex: 1;
+      padding: 10px;
+    }
+  
+    .footer-column h4 {
+      margin-bottom: 10px;
+    }
+  
+    .footer-column:last-child {
+      margin-bottom: 20px; /* Adjust the margin as needed */
+    }
+  
+    .logo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      margin-top: 20px; /* Adjust the margin as needed */
+    }
+  
+    .small-logo {
+      width: 30px;
+      height: 30px;
+      margin: 5px; /* Adjust the margin as needed */
+    }
+  }
+  /* Regular styles */
+/* Define your regular styles here */
+
+/* Media query for small screens */
+@media only screen and (max-width: 768px) {
+    .footer-text {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .footer-column {
+      text-align: center;
+      flex: 1;
+      padding: 10px;
+    }
+  
+    .footer-column h4 {
+      margin-bottom: 10px;
+    }
+  
+    .footer-column:last-child {
+      margin-bottom: 20px; /* Adjust the margin as needed */
+    }
+  
+    .logo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      margin-top: 20px; /* Adjust the margin as needed */
+    }
+  
+    .small-logo {
+      width: 30px;
+      height: 30px;
+      margin: 5px; /* Adjust the margin as needed */
+    }
+  }
+  @media only screen and (max-width: 375px) {
+    .footer-text {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .footer-column {
+        flex-direction: column;
+        align-items: center;
+     
+      padding: 10px;
+    }
+  
+    .footer-column h4 {
+      margin-bottom: 10px;
+    }
+  
+    .footer-column:last-child {
+      margin-bottom: 20px; /* Adjust the margin as needed */
+    }
+  
+    .logo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      margin-top: 20px; /* Adjust the margin as needed */
+    }
+  
+    .small-logo {
+      width: 30px;
+      height: 30px;
+      margin: 5px; /* Adjust the margin as needed */
+    }
+  }
+  @media only screen and (max-width: 425px) {
+    .footer-text {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .footer-column {
+        flex-direction: column;
+        align-items: center;
+      flex: 1;
+      padding: 10px;
+    }
+  
+    .footer-column h4 {
+      margin-bottom: 10px;
+    }
+  
+    .footer-column:last-child {
+      margin-bottom: 20px; /* Adjust the margin as needed */
+    }
+  
+    .logo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      margin-top: 20px; /* Adjust the margin as needed */
+    }
+  
+    .small-logo {
+      width: 30px;
+      height: 30px;
+      margin: 5px; 
+                /* Adjust the margin as needed */
+    }
+  }
+  @media only screen and (max-width: 425px) {
+    /* Adjust the styles for the API section on mobile screens here */
+    .app {
+      margin-top: 20px; /* Adjust the margin as needed for the API section */
+    }
+  
+    /* Adjust other styles as needed for the API section on mobile screens */
+  }
+  
+  
+  
+  
